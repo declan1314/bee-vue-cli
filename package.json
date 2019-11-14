@@ -1,0 +1,21 @@
+{
+  "name": "node-project",
+  "version": "1.0.0",
+  "description": "node test",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Declan Wu",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.7.2",
+    "fs-extra": "^8.1.0",
+    "globby": "^10.0.1",
+    "inquirer": "^7.0.0",
+    "path": "^0.12.7"
+  }
+}
