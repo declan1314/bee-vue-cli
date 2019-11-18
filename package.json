@@ -1,6 +1,6 @@
 {
   "name": "beew-vue-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "这是一款 vue 脚手架，生成与后台分布式 spring cloud 的目录开发结构相对应的结构。",
   "main": "index.js",
   "scripts": {
