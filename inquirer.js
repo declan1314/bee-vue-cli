@@ -11,12 +11,6 @@ const resolveFinalPrompts = () => {
   return prompts
 }
 
-module.exports = () => {
-  return new Promise((resolve, reject) => {
-    inquirer.prompt(resolveFinalPrompts()).then((present) => {
-      resolve(present)
-    }).catch((e) => {
-      reject(e)
-    })
-  })
+module.exports = async () => {
+  return await inquirer.prompt(resolveFinalPrompts())
 }
