@@ -1,13 +1,17 @@
 {
-  "name": "node-project",
+  "name": "beew-vue-cli",
   "version": "1.0.0",
-  "description": "node test",
+  "description": "这是一款 vue 脚手架，生成与后台分布式 spring cloud 的目录开发结构相对应的结构。",
   "main": "index.js",
   "scripts": {
     "test": "test"
   },
   "keywords": [
-    "node"
+    "vue",
+    "spring-cloud",
+    "inquirer",
+    "ejs",
+    "nodejs"
   ],
   "author": "Declan Wu",
   "license": "ISC",
