@@ -10,3 +10,7 @@
     bee-vue-cli init &lt;vue-project&gt; <br/>
   2. 创建业务模块module - 已做<br/>
     bee-vue-cli create &lt;module-name&gt; <br/>
+
+## 发布历史
+### 2019/11/18
+  1. 创建业务模块module
