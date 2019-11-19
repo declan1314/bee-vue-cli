@@ -1,0 +1,8 @@
+/build/
+/config
+/dist/
+/*.js 
+/src/*/assets/js/
+/src/*/common/
+/src/base/js/
+/static/

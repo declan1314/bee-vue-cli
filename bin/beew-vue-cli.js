@@ -30,16 +30,16 @@ program
   .command('create <module-name>')
   .description('create a new module powered by beew-vue-cli')
   .action(async (name, cmd) => {
-    const options = cleanArgs(cmd)
+    // const options = cleanArgs(cmd)
+    await require('../lib/create-module')(name)
+  })
 
-    if (minimist(process.argv.slice(3))._.length > 1) {
-      console.log(chalk.yellow('\n Info: You provided more than one argument. The first one will be used as the app\'s name, the rest are ignored.'))
-    }
-    // --git makes commander to default git to true
-    if (process.argv.includes('-g') || process.argv.includes('--git')) {
-      options.forceGit = true
-    }
-    await require('../lib/creator.js')(name)
+program
+  .command('init <project-name>')
+  .description('create a new project powered by beew-vue-cli')
+  .action(async (name, cmd) => {
+    // const options = cleanArgs(cmd)
+    await require('../lib/init-project')(name)
   })
 
 program.parse(process.argv);
