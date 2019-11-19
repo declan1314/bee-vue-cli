@@ -1,8 +1,15 @@
 {
   "name": "beew-vue-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "这是一款 vue 脚手架，生成与后台分布式 spring cloud 的目录开发结构相对应的结构。",
-  "main": "index.js",
+  "bin": {
+    "beew-vue-cli": "bin/commander.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/declan1314/bee-vue-cli.git",
+    "directory": ""
+  },
   "scripts": {
     "test": "test"
   },
@@ -16,10 +23,15 @@
   "author": "Declan Wu",
   "license": "ISC",
   "dependencies": {
+    "commander": "^4.0.1",
     "ejs": "^2.7.2",
     "fs-extra": "^8.1.0",
     "globby": "^10.0.1",
     "inquirer": "^7.0.0",
+    "minimist": "^1.2.0",
     "path": "^0.12.7"
+  },
+  "engines": {
+    "node": ">=8.9"
   }
 }
