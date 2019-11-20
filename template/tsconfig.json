@@ -15,7 +15,7 @@
     "allowSyntheticDefaultImports": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src/domair/*", "src/car/*", "src/main/*",  "src/visa/*", "src/admin/*", "src/intair/*", "src/zas/*", "src/vendor/*"],
+      "@/*": ["src/project/*"],
       "@Base/*": ["src/base/*"],
       "bee-ui/*": ["src/base/components/lib/*"]
     },

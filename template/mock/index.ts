@@ -1,7 +1,7 @@
 import Mock from 'mockjs'
 import { param2Obj } from '@Base/utils/utils'
 
-import demo from './module/demo/test.mock'
+import demo from './module/hello-word/hello-word.mock'
 
 const mocks = [
   ...demo,
